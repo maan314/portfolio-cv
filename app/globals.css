@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: black;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+ul li {
+  margin-left: 20px;
+}
+.full-page-div {
+  border-width:1px;
+  margin-left: 20px; 
+  margin-right: 20px; 
+  margin-top: 20px; 
+  height: calc(100vh - 40px);
+  width: calc(100vw - 40px); 
+  background-color: rgb(4, 5, 5);
+}
+h1 {
+  padding-top: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin-left: 20px;
+  color: white;
+}
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;  
+}
+.nav-div {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.link:hover {
+  background: #fbfcfc;
+  color: black;
+  border-width: 1px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.summary {
+  position: fixed;
+  margin-right: 60px;
+  margin-left: 800px;
+  font-size: 10px;
+  line-height: 2.3;
+  color: #cdcbcb;
+}
+.obj-p:hover{
+  font-size: 10px;
+  color: rgb(86, 167, 254);
+}
+.footer {
+  color: rgb(249, 246, 246);
+  font-size: 15px;
+}
+.contact-sec {
+  color: rgb(251, 249, 249);
+  font-size: 20px;
+}
+p:hover {
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+.skill-div {
+  position: fixed;
+  font-size: 20px;
+  display: flex;
+  margin-left: 800px;
+}
+.skill-li {
+  margin-top: 5px;
+}
+.skill-li:hover {
+  background-color: rgb(28, 25, 25);
+  cursor: pointer;
+  border-radius: 15px;
+
+}
+
+.study-sec {
+  position: fixed;
+  font-size: 15px;
+  display: flex;
+  margin-left: 800px;
+
+}
+.contact-li{
+  position: fixed;
+  margin: 5px;
+  font-size: 60px;
+  display: flex;
+  margin-left: 800px;
+  transition: 1.5;
+}
+.contact-list-linked:hover{
+  font-size: 55px;
+  transition: 15 ease-in-out;
+  color: rgb(40, 40, 253);
+}
+.contact-list:hover{
+  font-size: 55px;
+  transition: 15 ease-in-out;
+  color: rgb(255, 255, 255);
+}
+.contact-list-insta:hover{
+  font-size: 55px;
+  transition: 15 ease-in-out;
+  color: rgba(235, 6, 37, 0.717);
+}
+.proj-sec {
+  position: fixed;
+  font-size: 10px;
+  display: flex;
+  margin-left: 800px;
+}
+.proj-li{
+  font-size: 20px;
+}
